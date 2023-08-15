@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+.background{
+    background-image: url(img/imagem\ logo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    width: 100px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px;
+    background: #243ae2;
+}
+
+.navegavel{
+    color: aliceblue;
+    margin: 10px;
+    outline: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: #0e1d91;
+}
+
+.navegavel:hover{
+    background-color: rgb(17, 63, 103);
+}
+.navegaveis{
+    display: flex;
+    margin-right: 10px;
+    list-style-type: none;    
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-right: 20px;
+    
+}
+
+.menu-mobile{
+    display: none;
+    margin-right: 5px;
+}
+
+.itens-menu-mobile{
+    display: none;    
+}
+
+@media screen and (max-width: 730px) {
+    .navegaveis{
+        padding: 1.5rem 4rem;
+    }
+
+    .navegavel{
+        display: none;
+    }
+
+    .icones{
+        display: none;
+    }
+    
+    .menu-mobile{
+        display: block;
+    }
+
+    .btnmenu{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+
+    }
+    .omenu{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .navegavel1{
+        display: block;
+        padding-top: 1.2rem;
+        color: aliceblue;
+    }
+    .iconm{
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .open{
+        display: block;
+    }
+}
+
+.p1{
+    padding: 7rem 0 0 8.5rem;
+    line-height: 4rem;
+}
+
+.p1 h1{
+    font-size: 4rem;
+    color: #1fd41f;
+    
+}
+
+.p1 p{
+    color: #30d540;
+    font-size: large;
+}
+.b1 {
+    background-color: #0cb80c;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.p1 button:hover{
+    background-color: #093f09;
+    transform: scaleY(1.2);
+}
+
+section{
+    padding-top: 7rem;
+}
+
+section h1{
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.box-of-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 2rem;
+   
+}
+
+.cards img{
+    width: 450px;
+    height: auto;
+    transition: 0.35s ease;
+
+}
+
+.cards img:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+  
+    
+}
+
+.cta{
+    height: 60vh;
+    width: 100%;
+    background-image: url(img/dia\ dos\ pais.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.text-cta{
+    padding-left: 5rem;
+}
+
+.text-cta h6{
+    font-size: 17px;
+	font-weight: 500;
+	letter-spacing: .6px;
+	margin-bottom: 14px;
+
+}
+
+.text-cta h4{
+    font-size: 3.3rem;
+	line-height: 1.2;
+	letter-spacing: .6rem;
+	margin-bottom: 30px;
+}
+
+.text-cta a{
+    background-color: #0cb80c;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    color: #4e0072;
+   font-size: 1rem;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+.text-cta a:hover{
+    background-color: #093f09;
+      transform: scaleY(1.2);
+
+}
+
+.novos-produtos-estoque{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.novos-produtos-estoque img:hover {
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.nsp img{
+    width: 250px;
+    height: auto;
+}
+
+
+.nsp .car{
+    height: 35px;
+    width: 80px;
+}
+
+.rdp{
+padding: 24px;
+border-top: 3px solid rgb(61, 47, 255);
+background: #243ae2;
+}
+
+.logo22{
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.novos-produtos-estoque p{
+  display:flex ;
+  text-align: justify;
+  margin: 20px;
+}
