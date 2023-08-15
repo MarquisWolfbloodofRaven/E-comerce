@@ -268,3 +268,26 @@ background: #243ae2;
   text-align: justify;
   margin: 20px;
 }
+
+.produtos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.ntb img{
+    width: 450px;
+    height: auto;
+    transition: 0.35s ease;
+}
+
+ntb img:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+  
+}
+
+
+
