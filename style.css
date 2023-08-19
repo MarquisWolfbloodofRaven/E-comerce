@@ -7,6 +7,7 @@
 
 body{
     overflow-x: hidden;
+    background: rgb(255, 255, 255);
 }
 .background{
     background-image: url(img/imagem\ logo.jpeg);
@@ -117,13 +118,17 @@ body{
 
 .p1 h1{
     font-size: 4rem;
-    color: #1fd41f;
+    color: #0a33c8;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #88ff3e;
     
 }
 
 .p1 p{
-    color: #30d540;
+    color: #2613d4;
     font-size: large;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #15ab38;
 }
 .b1 {
     background-color: #0cb80c;
@@ -269,25 +274,84 @@ background: #243ae2;
   margin: 20px;
 }
 
-.produtos{
+
+
+.background2{
+    background-image: url(img/plano\ de\ fundo\ notebook.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p2{
+    padding: 7rem 0 0 8.5rem;
+    line-height: 4rem;    
+}
+
+.p2 h1{
+    font-size: 4rem;
+    color: #000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f2fff5;
+    
+}
+
+.p2 p{
+    color: #070707;
+    font-size: large;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #401e1e;
+
+}
+
+.linha{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-    padding-top: 2rem;
-}
-
-.ntb img{
-    width: 450px;
-    height: auto;
-    transition: 0.35s ease;
-}
-
-ntb img:hover{
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 70px;
     transform: scale(0.9) translateY(-5px);
     cursor: pointer;
-  
+    transition: 0.3s;
 }
 
+.produto1 img{
+    width: 450px;
+    height: 400px;
+    transition: 0.35s ease;
+    margin: 5px;
 
+}
 
+.produto1 img:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+}
+
+.produto1 .car1{
+   height: 30px;
+   width: 40px;
+}
+
+.produto1 p{
+    display: flex;
+    text-align: justify;
+    margin: 10px;
+}
+
+.produto1 h5{
+    margin: 10px;
+}
+
+.botoes_de_rodape{
+    display: flex;
+    justify-content: center;
+}
+
+.botoes_de_rodape button{
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
