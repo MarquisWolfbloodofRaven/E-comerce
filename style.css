@@ -355,3 +355,30 @@ background: #243ae2;
     border: none;
     cursor: pointer;
 }
+
+.background3{
+    background-image: url(img/cartao-de-visita-digital-interativo-loja-de-celulares.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p3{
+    padding: 7rem 0 0 8.5rem;
+    line-height: 4rem;   
+}
+
+.p3 p{
+    color: #07d191;
+    font-size: large;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #523ed8;
+}
+
+
+.p3 h1{
+    font-size: 4rem;
+    color: #000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f2fff5;
+}
